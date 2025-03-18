@@ -1,9 +1,27 @@
-stream
+@environment-safe/stream
 ============================
-null
+Just a uniform way to include streams
 
 Usage
 -----
+
+```js
+import {
+    ReadableStream,
+    ReadableStreamDefaultReader,
+    ReadableStreamDefaultController,
+    WritableStream,
+    WritableStreamDefaultWriter,
+    WritableStreamDefaultController,
+    TransformStream,
+    TransformStreamDefaultController,
+    ByteLengthQueuingStrategy,
+    CountQueuingStrategy,
+    ReadableStreamBYOBReader,
+    ReadableByteStreamController,
+    ReadableStreamBYOBRequest
+} from '@environment-safe/stream';
+```
 
 Testing
 -------
